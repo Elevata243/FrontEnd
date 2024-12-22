@@ -2,3 +2,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Scrollbar personnalisée */
+.scrollbar-custom::-webkit-scrollbar {
+    visibility: hidden; /* Cacher la poignée par défaut */
+    height: 8px; /* Hauteur de la barre de défilement */
+  }
+  
+  .scrollbar-custom::-webkit-scrollbar-track {
+    visibility: hidden; /* Cacher la poignée par défaut */
+    background: #f1f1f1; /* Couleur de fond de la barre */
+    border-radius: 10px;
+  }
+  
+  .scrollbar-custom::-webkit-scrollbar-thumb {
+    visibility: hidden; /* Cacher la poignée par défaut */
+    background: #4f46e5; /* Couleur de la poignée */
+    border-radius: 10px;
+  }
+  
+  .scrollbar-custom::-webkit-scrollbar-thumb:hover {
+    visibility: hidden; /* Cacher la poignée par défaut */
+    background: #4338ca; /* Couleur de la poignée au survol */
+  }
+  
