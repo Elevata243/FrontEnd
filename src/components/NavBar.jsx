@@ -17,8 +17,8 @@ const Navbar = () => {
           <a href="#" className="text-2xl font-bold">MonSite</a>
           <ul className="hidden md:flex space-x-8 pl-8">
             <li><a href="#" >Accueil</a></li>
-            <li><a href="#" >Services</a></li>
-            <li><a href="#" >À Propos</a></li>
+            <li><a href="#" >Collectes</a></li>
+            <li><a href="#" >Comment ça marche</a></li>
             <li><a href="#" >Contact</a></li>
           </ul>
         </div>
@@ -50,8 +50,8 @@ const Navbar = () => {
         <div className="md:hidden text-black px-4 py-2 space-y-2 flex flex-col items-start transform transition-transform duration-300 ease-in-out">
           <ul className="w-full space-y-2">
             <li><a href="#" className="block ">Accueil</a></li>
-            <li><a href="#" className="block ">Services</a></li>
-            <li><a href="#" className="block ">À Propos</a></li>
+            <li><a href="#" className="block ">Collectes</a></li>
+            <li><a href="#" className="block ">Comment ça marche</a></li>
             <li><a href="#" className="block ">Contact</a></li>
           </ul>
           {/* Bouton Mobile en bas */}
