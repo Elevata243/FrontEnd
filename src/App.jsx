@@ -1,5 +1,6 @@
 import CallToAction from "./components/CallToAction"
 import Faq from "./components/Faq"
+import Footer from "./components/Footer"
 import FundraisingSection from "./components/FundraisingSection"
 import FundSection from "./components/FundSection"
 import HeroSection from "./components/HeroSection"
@@ -14,6 +15,7 @@ function App() {
     <FundraisingSection />
     <CallToAction />
     <Faq />
+    <Footer />
     {/* <h1 className="text-2xl font-bold">Elevata 243 </h1> */}
   </div>
   )
